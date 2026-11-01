@@ -2,7 +2,7 @@
 
 Tested base ff7d61f and head c04e851 with separately rebuilt native extensions,
 Python3.12.12, NumPy2.5.4, Linux x86_64. Both Python and native import paths are
-asserted by the workers. `candidate.patch` applies the maintainer's suggested
+asserted by the workers. `candidate.patch.gz` applies the maintainer's suggested
 unconditional `specular_counter <= ism_order` guard; it is a review experiment,
 not a competing pull request or a complete scattering-model validation.
 
